@@ -11,7 +11,7 @@ class Implementos(models.Model):
     categoria=models.CharField(max_length=30)
     cantidad=models.CharField(max_length=30)
 
-class Pedidos(models.Model):
+class Pedido(models.Model):
     numero=models.IntegerField()
     fecha=models.DateField()
     entregado=models.BooleanField()
